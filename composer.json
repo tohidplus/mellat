@@ -1,0 +1,19 @@
+{
+    "name": "tohidplus/mellat",
+    "description": "A Laravel package for connecting to (Iran) Mellat bank gateway.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tohid Dadashnejad",
+            "email": "tohid.dadashnejad@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Tohidplus\\Mellat\\": "src/"
+        }
+    }
+}
