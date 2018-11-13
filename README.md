@@ -26,7 +26,7 @@ composer require tohidplus/mellat
 1. Add the following code to end of the **aliases** array in **config/app.php** file.
 ```php
 'aliases' => [
-   'mellat'=>Tohidplus\Mellat\Facades\Mellat::class,
+   'Mellat'=>Tohidplus\Mellat\Facades\Mellat::class,
 ];
 ```
 
