@@ -1,3 +1,6 @@
+
+[![GitHub issues](https://img.shields.io/github/issues/tohidplus/mellat.svg)](https://github.com/tohidplus/mellat/issues)
+
 # Mellat package for Laravel
 This package is built for connecting Iranian websites to Mellat bank gateway.
 
