@@ -44,11 +44,11 @@ php artisan migrate
 ```php
 <?php
 return [
-    'terminalId'=>'your-temrinalId',
-    'username'=>'your-username',
-    'password'=>'your-password',
-    'callBackUrl'=>'http://yourwebsite.com/verifyPayment',
-    'convertToRial'=>true
+'terminalId' => 'your-temrinalId',
+'username' => 'your-username',
+'password' => 'your-password',
+'callBackUrl' => 'http://yourwebsite.com/verifyPayment',
+'convertToRial' => true
 ];
 
 ```
