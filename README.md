@@ -5,7 +5,7 @@
 [![GitHub license](https://img.shields.io/github/license/tohidplus/mellat.svg)](https://github.com/tohidplus/mellat/blob/master/LICENSE.txt)
 
 
-# Mellat package for Laravel
+# Laravel package for Mellat bank
 This package is built for connecting Iranian websites to Mellat bank gateway.
 
 ---
