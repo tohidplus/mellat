@@ -93,7 +93,7 @@ Parameters:
 
 *after initializing the fields you can redirect user to the bank by using this method.*
 
-Parameters
+Parameters:
 
 - It only accepts one parameter as a callback funtion and if there is an error while redirection the callback function will be triggered with error message as a parameter.
 
@@ -102,7 +102,7 @@ Parameters
 *This method indicates if transaction was successful or not.*
 
 
-Parameters
+Parameters:
 - **success**  is a callback function which will be triggered if the transaction was successful and accepts an instance of **Tohidplus\Mellat\Models\MellatLog**  as a parameter.
 - **error** is a callback function which will be triggered if the transaction was unsuccessful and accepts an instance of **Tohidplus\Mellat\Models\MellatLog** as a parameter.
 
