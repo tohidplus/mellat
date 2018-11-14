@@ -18,7 +18,7 @@ composer require tohidplus/mellat
 
 1. Add the following code to end of the **providers** array in **config/app.php** file.
 ```php
-'providers'=>[
+'providers' => [
     Tohidplus\Mellat\MellatServiceProvider::class,
 ];
 ```
@@ -26,7 +26,7 @@ composer require tohidplus/mellat
 1. Add the following code to end of the **aliases** array in **config/app.php** file.
 ```php
 'aliases' => [
-   'Mellat'=>Tohidplus\Mellat\Facades\Mellat::class,
+   'Mellat' => Tohidplus\Mellat\Facades\Mellat::class,
 ];
 ```
 
@@ -44,11 +44,11 @@ php artisan migrate
 ```php
 <?php
 return [
-'terminalId' => 'your-temrinalId',
-'username' => 'your-username',
-'password' => 'your-password',
-'callBackUrl' => 'http://yourwebsite.com/verifyPayment',
-'convertToRial' => true
+    'terminalId' => 'your-temrinalId',
+    'username' => 'your-username',
+    'password' => 'your-password',
+    'callBackUrl' => 'http://yourwebsite.com/verifyPayment',
+    'convertToRial' => true
 ];
 
 ```
