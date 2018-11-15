@@ -172,4 +172,4 @@ class MellatLogController extends Controller
 
 ```
 ---
-[a link](https://github.com/tohidplus/mellat/blob/master/README.FARSI.md)
+[Farsi documentation](https://github.com/tohidplus/mellat/blob/master/README.FARSI.md)
