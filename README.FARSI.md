@@ -1,3 +1,7 @@
+[![GitHub issues](https://img.shields.io/github/issues/tohidplus/mellat.svg)](https://github.com/tohidplus/mellat/issues)
+[![GitHub stars](https://img.shields.io/github/stars/tohidplus/mellat.svg)](https://github.com/tohidplus/mellat/stargazers)
+[![Total Downloads](https://img.shields.io/packagist/dt/tohidplus/mellat.svg)](https://packagist.org/packages/tohidplus/mellat)
+[![GitHub license](https://img.shields.io/github/license/tohidplus/mellat.svg)](https://github.com/tohidplus/mellat/blob/master/LICENSE.txt)
 # پکیج لاراول برای درگاه بانک ملت
 این پکیج جهت ااتصال به درگاه بانک ملت ساخته شده است.
 
