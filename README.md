@@ -16,31 +16,31 @@ This package is built for connecting Iranian websites to Mellat bank gateway.
 composer require tohidplus/mellat
 ```
 
-1. Add the following code to end of the **providers** array in **config/app.php** file.
+2. Add the following code to end of the **providers** array in **config/app.php** file.
 ```php
 'providers' => [
     Tohidplus\Mellat\MellatServiceProvider::class,
 ];
 ```
 
-2. Add the following code to end of the **aliases** array in **config/app.php** file.
+3. Add the following code to end of the **aliases** array in **config/app.php** file.
 ```php
 'aliases' => [
    'Mellat' => Tohidplus\Mellat\Facades\Mellat::class,
 ];
 ```
 
-3. Run the command below
+4. Run the command below
 ```bash
 php artisan vendor:publish --provider=Tohidplus\Mellat\MellatServiceProvider
 ```
 
-4. Migrate the database
+5. Migrate the database
 ```bash
 php artisan migrate
 ```
 
-5. Now you can see a new config file named **mellat.php** is added to config directory. So open the file...
+6. Now you can see a new config file named **mellat.php** is added to config directory. So open the file...
 ```php
 <?php
 return [
