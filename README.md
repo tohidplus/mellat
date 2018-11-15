@@ -56,7 +56,7 @@ Fill the array elements
 
 > Notice: you can leave **callBackUrl** here blanked and initialize it dynamically by using **setCallBackUrl** method as we will explain
 
-Now you have to exclude **callBackUrl** from **verifyCsrfToken** middleware.
+7. Now you have to exclude **callBackUrl** from **verifyCsrfToken** middleware.
 Open the file **app/Http/Middleware/VerifyCsrfToken.php** and add the **callbackUrl** to **except** array.
 ```php
 protected $except = [
