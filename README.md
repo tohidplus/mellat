@@ -23,24 +23,24 @@ composer require tohidplus/mellat
 ];
 ```
 
-1. Add the following code to end of the **aliases** array in **config/app.php** file.
+2. Add the following code to end of the **aliases** array in **config/app.php** file.
 ```php
 'aliases' => [
    'Mellat' => Tohidplus\Mellat\Facades\Mellat::class,
 ];
 ```
 
-1. Run the command below
+3. Run the command below
 ```bash
 php artisan vendor:publish --provider=Tohidplus\Mellat\MellatServiceProvider
 ```
 
-1. Migrate the database
+4. Migrate the database
 ```bash
 php artisan migrate
 ```
 
-1. Now you can see a new config file named **mellat.php** is added to config directory. So open the file...
+5. Now you can see a new config file named **mellat.php** is added to config directory. So open the file...
 ```php
 <?php
 return [
