@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2018 Tohid Dadashnejad <https://github.com/tohidplus>
+Copyright (c) 2020 Tohid Dadashnejad <https://github.com/tohidplus>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
